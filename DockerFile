@@ -1,0 +1,4 @@
+FROM openjdk:13
+ADD target/labs_and_exams-0.0.1-SNAPSHOT.jar labs_and_exams-0.0.1-SNAPSHOT.jar
+EXPOSE 8090
+ENTRYPOINT ["java", "-jar", "labs_and_exams-0.0.1-SNAPSHOT.jar"]
